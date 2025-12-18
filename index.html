@@ -1,73 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Photography</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Photography</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <div class="main_box">
-    <input type="checkbox" id="check">
-    <div class="btn_one">
-      <label for="check">
-        <i class="fa-solid fa-bars"></i>
-      </label>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Open Photography</div>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-social">
+      <a href="https://www.facebook.com/profile.php?id=100053727353164"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/harendra_rajput__/"><i class="fab fa-instagram"></i></a>
+      <a href="http://linkedin.com/in/harendra-kumar-iitp"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://x.com/HarendraRa61497"><i class="fab fa-x-twitter"></i></a>
     </div>
-    <div class="sidebar_menu">
-      <div class="logo">
-        <a href="#">Open Photography</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Welcome to <span>Open Photography</span></h1>
+    <p>Capturing moments, telling stories through lenses 📸</p>
+    <a href="gallery.html" class="btn">Explore Gallery</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m <b>Harendra Kumar</b>, a CSE student at <b>IIT Patna</b>.
+      Photography is my creative outlet and this website showcases
+      my visual storytelling journey.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <p>
+      Email:
+      <a href="mailto:harendrarajput9627@gmail.com?subject=Photography%20Inquiry&body=Hello%20Harendra,">
+        harendrarajput9627@gmail.com
+      </a>
+    </p>
+
+    <p>
+      Instagram:
+      <a href="https://www.instagram.com/harendra_rajput__/" target="_blank">
+        @harendra_rajput__
+      </a>
+    </p>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div>
+        <h3>Open Photography</h3>
+        <p>Capturing moments, telling stories through lenses.</p>
       </div>
-      <div class="btn_two">
-        <label for="check">
-          <i class="fa-solid fa-xmark"></i>
-        </label>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </div>
-      <div class="menu">
-        <ul>
-            <li>
-              <i class="fa-solid fa-image"></i>
-              <a href="gallery.html" target="_blank">Gallery</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-up-right-from-square"></i>
-              <a href="#">Shortcuts</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-photo-film"></i>
-              <a href="#">Exhibits</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-calendar-days"></i>
-              <a href="#">Events</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-store"></i>
-              <a href="#">Store</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-phone"></i>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <i class="fa-regular fa-comments"></i>
-              <a href="#">Feedback</a>
-            </li>
-        </ul>
+
+      <div>
+        <h4>Connect</h4>
+        <p>
+          Email:
+          <a href="mailto:harendrarajput9627@gmail.com">
+            harendrarajput9627@gmail.com
+          </a>
+        </p>
+
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=100053727353164"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/harendra_rajput__/"><i class="fab fa-instagram"></i></a>
+          <a href="http://linkedin.com/in/harendra-kumar-iitp"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://x.com/HarendraRa61497"><i class="fab fa-x-twitter"></i></a>
+        </div>
       </div>
-      <div class="social_media">
-        <ul>
-            <a href="https://www.facebook.com/profile.php?id=100053727353164"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/harendra_rajput__/"><i class="fab fa-instagram"></i></a>
-            <a href="http://linkedin.com/in/harendra-kumar-iitp"><i class="fab fa-linkedin"></i></a>
-            <a href="https://x.com/HarendraRa61497?t=3IegCRY8EFlGYKd9jkrZXg&s=09"><i class="fab fa-x-twitter"></i></a>
-        </ul>
-      </div>
+
     </div>
-  </div>
+
+    <div class="footer-bottom">
+      © 2025 Open Photography · All rights reserved
+    </div>
+  </footer>
+
 </body>
+
 </html>
