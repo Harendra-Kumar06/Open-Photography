@@ -1,45 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <a href="index.html"><h3>Home</h3></a>
-    <table>
-        <tr>
-            <td><a href="cow.jpg"><img src="cow.jpg" alt="cow" height="300"></a></td>
-            <td><a href="dog.jpg"><img src="dog.jpg" alt="dog" height="300"></a></td>
-            <td><a href="camera.jpg"><img src="camera.jpg" alt="camera" height="300"></a></td>
-        </tr>
-        <tr>
-            <td><a href="cow.jpg"><img src="cow.jpg" alt="cow" height="300"></a></td>
-            <td><a href="dog.jpg"><img src="dog.jpg" alt="dog" height="300"></a></td>
-            <td><a href="camera.jpg"><img src="camera.jpg" alt="camera" height="300"></a></td>
-        </tr>
-        <tr>
-            <td><a href="cow.jpg"><img src="cow.jpg" alt="cow" height="300"></a></td>
-            <td><a href="dog.jpg"><img src="dog.jpg" alt="dog" height="300"></a></td>
-            <td><a href="camera.jpg"><img src="camera.jpg" alt="camera" height="300"></a></td>
-        </tr>
-        <tr>
-            <td><a href="cow.jpg"><img src="cow.jpg" alt="cow" height="300"></a></td>
-            <td><a href="dog.jpg"><img src="dog.jpg" alt="dog" height="300"></a></td>
-            <td><a href="camera.jpg"><img src="camera.jpg" alt="camera" height="300"></a></td>
-        </tr>
-        <tr>
-            <td><a href="cow.jpg"><img src="cow.jpg" alt="cow" height="300"></a></td>
-            <td><a href="dog.jpg"><img src="dog.jpg" alt="dog" height="300"></a></td>
-            <td><a href="camera.jpg"><img src="camera.jpg" alt="camera" height="300"></a></td>
-        </tr>
-        
-    </table>
+
+  <!-- BACK ARROW -->
+  <a href="index.html" class="back-arrow">
+    <img src="images/arrow.png" alt="Back">
+  </a>
+
+  <section class="gallery-section">
+    <h2>Photo Gallery</h2>
+
+    <div class="gallery-grid">
+      <img src="images/a1.jpg" alt="">
+      <img src="images/a2.jpg" alt="">
+      <img src="images/a3.png" alt="">
+      <img src="images/a4.avif" alt="">
+      <img src="images/a5.jpg" alt="">
+      <img src="images/a6.jpg" alt="">
+      <img src="images/a7.jpg" alt="">
+      <img src="images/a8.jpg" alt="">
+      <img src="images/a9.avif" alt="">
+      <img src="images/a10.jpg" alt="">
+      <img src="images/a11.jpg" alt="">
+      <img src="images/a12.jpg" alt="">
+      <img src="images/a13.avif" alt="">
+      <img src="images/a14.avif" alt="">
+      <img src="images/a15.jpg" alt="">
+      <img src="images/a16.webp" alt="">
+      <img src="images/a17.jpg" alt="">
+      <img src="images/a18.jpg" alt="">
+      <img src="images/a19.jpg" alt="">
+      <img src="images/a20.jpg" alt="">
+      <img src="images/a21.jpg" alt="">
+      <img src="images/a22.webp" alt="">
+      <img src="images/a23.jpg" alt="">
+      <img src="images/a24.jpg" alt="">
+      <img src="images/a25.jpeg" alt="">
+      <img src="images/a26.webp" alt="">
+      <img src="images/a27.jpg" alt="">
+      <img src="images/a28.jpg" alt="">
+      <img src="images/a29.jpg" alt="">
+      <img src="images/a30.jpg" alt="">
+      <img src="images/a31.webp" alt="">
+      <img src="images/a32.avif" alt="">
+      <img src="images/a33.jpg" alt="">
+      <img src="images/a34.jpg" alt="">
+      <img src="images/a35.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- IMAGE MODAL -->
+  <div class="image-modal" id="imageModal">
+
+    <!-- Previous -->
+    <span class="nav-arrow prev">&#10094;</span>
+
+    <!-- Image -->
+    <img class="modal-img" id="modalImage">
+
+    <!-- Next -->
+    <span class="nav-arrow next">&#10095;</span>
+
+    <!-- Close -->
+    <span class="close">&times;</span>
+  </div>
+
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>
